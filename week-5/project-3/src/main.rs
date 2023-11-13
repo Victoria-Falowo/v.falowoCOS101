@@ -10,7 +10,7 @@ fn main() {
     println!("E = Eba & Egusi Soup\t       -N2,000");
     println!("W = White Rice & Stew\t       -N2,500");
 
-    println!("Enter letter of food you would like like to order (q to quit):");
+    println!("Enter letter of food you would like like to order (q to quit/ Submit order):");
     loop {
         let mut food = String::new();
         io::stdin().read_line(&mut food).expect("Failed to read input");
