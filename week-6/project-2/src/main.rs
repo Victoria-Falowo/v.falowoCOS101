@@ -7,7 +7,8 @@ fn main() {
 
     for y in 1..501 {
     println!("YOU ARE THE {}TH RESEARCHER",y );
-        println!("Enter your full name");
+
+    println!("Enter your full name");
     io::stdin().read_line(&mut input1).expect("Failed to read input");
 
     println!("How many papers have you published?");
